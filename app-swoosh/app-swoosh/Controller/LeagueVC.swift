@@ -18,7 +18,11 @@ class LeagueVC: UIViewController {
     }
     
   
-  
+    @IBAction func nextPressed(_ sender: Any) {
+        
+        performSegue(withIdentifier: "skillVCSegue", sender: self)
+    }
+    
  
 
 }
